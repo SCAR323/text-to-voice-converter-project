@@ -1,0 +1,63 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #090b0b, #ececec);
+  color: #fff;
+  text-align: center;
+  margin: 20;
+  padding: 0;
+}
+h1 {
+  margin-top: 100px;
+  padding: 20px;
+  color: #fff;
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: "Courier New", monospace;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+textarea {
+  width: 80%;
+  height: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+select {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 14px;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+button {
+  margin-top: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #ff4040;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+button:hover {
+  background-color: #e34c22;
+}
+button::after {
+  content: "\1F50A";
+  font-size: 1.5em;
+  margin-left: 10px;
+}
